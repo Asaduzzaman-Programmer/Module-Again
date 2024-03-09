@@ -7,5 +7,13 @@ const addProduct = () =>{
     nameo.value = '';
     quantityo.value = '';
     const product = console.log(jh, jh2);
-    
+    system(jh, jh2)
 }
+
+// the below code fragment can be found in:
+ const system = (jh, jh2) => {
+    const adding2 = document.getElementById("adding");
+    const adding3 = document.createElement("li");
+    li.innerText = `${jh}: ${jh2}`
+    adding2.appendChild(adding3);
+ }
